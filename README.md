@@ -1,7 +1,7 @@
 # About
 This is a RocketSeat challenge, the challenge is to build a landing page about NFTs. this was also my first project done in ReactJS with Typescript.
 
-## Starting
+## Getting Started
 first run the ```Yarn``` command to install the dependencies and run the ```yarn dev``` command to start the project.
 
 ## Technologies 

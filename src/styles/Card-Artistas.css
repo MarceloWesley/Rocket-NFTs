@@ -1,0 +1,45 @@
+.card-artista{
+    display: flex;
+    align-items: center;
+    background-color: #252525;
+    width: 300px;
+    padding: 10px;
+}
+
+
+.img-artista-container{
+    margin-right: 20px;
+}
+
+.artista-info-container{
+    line-height: 30px;
+}
+
+.artista-info-container p + p {
+    color: #ff5b50;
+}
+
+.card-artista + .card-artista{
+    margin-left: 10px;
+}
+
+
+@media (max-width: 800px){
+    .card-artista + .card-artista{
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .card-artista{
+        width: 400px;
+        font-size: 22px;
+    }
+    }
+
+    @media (max-width: 430px){
+        .card-artista{
+            width: 300px;
+            font-size: 20px;
+            padding: 20px;
+        }
+    }

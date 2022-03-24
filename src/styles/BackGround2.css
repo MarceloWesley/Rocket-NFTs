@@ -1,0 +1,160 @@
+.bg-container2{
+    background-color: black;
+}
+
+.container-limit{
+    color: white;
+    height: auto;
+    background-color: black;
+    display: flex;
+    max-width: 2200px;
+    margin: 0 auto;
+}
+
+.statistic-container{
+    border-right: solid 1px;
+    border-bottom: solid 1px;
+    width: 400px;
+    
+}
+
+.statistic{
+    width: auto;
+    display: grid;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.statistic div + div{
+    margin-top: 100px;
+}
+
+.statistic div h2{
+    font-size: 45px;
+}
+
+.statistic div p {
+    color: #5a5757;
+}
+
+.container-block{
+  width: 100%;
+    
+}
+
+
+.statistic-text-container{
+    margin-top: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+.statistic-text-1{
+    width: 500px;
+    margin-right: 50px;
+    padding: 10px;
+    text-align: left;
+}
+
+.statistic-text-2{
+    width: 500px;
+   padding: 10px;
+   text-align: left;
+}
+
+.statistic-text-1 a{
+    display: block;
+    margin-top: 70px;
+    color: white;
+}
+
+.statistic-text-2 a{
+    display: block;
+    margin-top: 70px;
+    color: white;
+}
+
+.statistic-text-2 span {
+    color: #ff5b50;
+}
+
+.statistic-text-1 span{
+    color: #ff5b50;
+}
+
+.container-img{
+margin-top: 60px;
+}
+
+.container-img img{
+width: 100%;
+
+}
+
+@media(max-width: 1185px){
+
+    .container-img img{
+        width: 100%;
+        
+    }
+        
+    .container-limit{
+        display: block;
+    }
+
+    .statistic-container{
+       width: auto;
+       display: block; 
+      
+    }
+
+    .statistic{
+        width: auto;
+        margin-top: 0px;
+        display: flex;
+        text-align: unset;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .statistic div p{
+        font-size: 30px;
+    }
+
+    .statistic div h2{
+        font-size: 55px;
+    }
+
+    .statistic div + div{
+        margin-top: 0px;
+    }
+
+    .statistic-text-1{
+        font-size: 20px;
+    }
+
+    .statistic-text-2{
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 450px){
+    .statistic div h2{
+        font-size: 30px;
+    }
+
+    .statistic div p{
+        font-size: 25px;
+    }
+
+    .statistic-text-1{
+        font-size: 17px;
+    }
+
+    .statistic-text-2{
+        font-size: 17px;
+    }
+}

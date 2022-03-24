@@ -1,0 +1,8 @@
+.bg-container{
+    border: solid;
+    height: auto;
+    background-image: url("../assets/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}

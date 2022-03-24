@@ -1,0 +1,77 @@
+.bg-container4{
+    background-color: black;
+    overflow: hidden;
+}
+
+.container-limit3{
+    color: white;
+    height: auto;
+    max-width: 2200px;
+    margin: 0 auto;
+   
+    
+}
+
+.artistas-container{
+    max-width: 1200px;
+    margin: 60px auto;
+
+}
+
+.artistas-title{
+    margin-top: 60px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.artistas-title span {
+    color: #ff5b50;
+}
+
+.artistas1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.artistas2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.artistas-arrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.artistas-arrow p {
+    margin-right: 15px;
+}
+
+@media (max-width: 800px){
+    .artistas-container{
+        display: grid;
+    }
+
+    .artistas1{
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .artistas2{
+        display: block;
+        margin: 20px auto;
+        justify-content: space-between;
+
+    }
+
+    .artistas-title{
+        font-size: 25px;
+    }
+
+    
+}
+

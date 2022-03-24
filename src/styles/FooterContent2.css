@@ -1,0 +1,158 @@
+.Footer-content2-container{
+    display: flex;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+   
+}
+
+.footer-navegation-container nav {
+    display: flex;
+}
+
+.title-footer-container span{
+color: #ff5b50;
+}
+
+.footer-input-container{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+  
+}
+
+.footer-navegation-container{
+    flex: 2 1 200px;
+    margin-left: 100px;
+    padding: 20px;
+}
+
+.title-footer-container {
+    flex: 1 1 200px;
+    border-right: solid 1px;
+    padding: 60px;
+    
+}
+
+.footer-input-container{
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.title-footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.title-footer h2{
+margin-right: 45px;
+}
+
+.footer-input-container input{
+padding: 15px;
+background-color: black;
+border: none;
+color: white;
+}
+
+
+.footer-input-container button{
+padding: 13px;
+
+}
+
+.footer-navegation-container nav ul + ul {
+    margin-left: 100px;
+    
+}
+
+.footer-navegation-container nav ul {
+    line-height: 45px;
+    list-style: none;
+}
+
+.footer-navegation-container nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-navegation-container nav ul li a:hover {
+   text-decoration: underline;
+}
+
+
+@media (max-width: 1000px){
+    .Footer-content2-container{
+        display: block;
+    }
+
+    .title-footer-container{
+        display: flex;
+        flex: none;
+        justify-content: space-around;
+    }
+
+    .title-footer{
+        display: block;
+        justify-content: stretch;
+    }
+
+.footer-input-container{
+    align-items: unset;
+    justify-content: stretch;
+}
+
+.footer-navegation-container{
+    margin-left: 0;
+    padding: 0;
+    flex: none;
+}
+
+.footer-navegation-container nav {
+    display: block;
+}
+
+.footer-navegation-container nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.footer-navegation-container nav ul + ul {
+    margin-left: 0;
+}
+
+.footer-navegation-container nav ul li + li {
+    margin-right: 30px;
+}
+}
+
+@media (max-width: 710px){
+    .title-footer-container{
+        display: block;
+        border: none;
+        width: auto;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .title-footer{
+        display: flex ;
+        justify-content: center;
+    }
+
+    .footer-input-container{
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media(max-width: 455px){
+    .footer-navegation-container nav ul li + li {
+        margin-right: 5px;
+    }
+
+    .footer-navegation-container nav ul {
+        justify-content: start;
+    }
+}

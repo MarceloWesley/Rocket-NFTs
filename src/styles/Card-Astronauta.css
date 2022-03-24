@@ -1,0 +1,62 @@
+.card-contentMain3{
+    overflow: hidden;
+    cursor: pointer;
+   }
+   
+   .card-contentMain3 + .card-contentMain3{
+       margin-top: 50px;
+   }
+ 
+   
+   .card-contentMain3 img{
+   transition: all 0.3s;
+   width: 100%;
+   
+   }
+   
+   .card-contentMain3 img:hover{
+    transition: 0.3s;
+    transform: scale(1.1);
+   }
+
+   .title{
+       display: flex;
+       justify-content: space-between;
+   }
+
+   .title img{
+       width: 100%;
+   }
+
+   .astronauta{
+       display: flex;
+       justify-content: space-between;
+       margin-top: 15px;
+   }
+
+   .astronauta p + p{
+       color: #ff5b50;
+   }
+
+   .container-imgMain3{
+       margin-top: 30px;
+   }
+
+   .container-imgMain3 img {
+       border-radius: 10px;
+   }
+
+
+   @media(max-width: 800px){
+    .card-contentMain3{
+        width: 400px;
+        margin: 0 auto;
+    }
+   }
+
+   @media(max-width: 450px){
+    .card-contentMain3{
+        width: auto;
+        
+    }
+   }

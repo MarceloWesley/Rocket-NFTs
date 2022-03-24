@@ -1,0 +1,16 @@
+.logo-footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-footer-container{
+    padding: 60px;
+}
+
+.arrow-footer-container{
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #ff5b50;
+    margin-left: 10px;
+}

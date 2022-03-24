@@ -1,0 +1,57 @@
+.galery{
+    color: wheat;
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 10px;
+}
+
+.galery1{
+    display: flex;
+    
+}
+
+.galery2{
+    display: flex;
+    margin-top: 20px;
+}
+
+.card{
+ overflow: hidden;
+ cursor: pointer;
+ border-radius: 5px;
+}
+
+
+.card + .card{
+    margin-left: 10px;
+}
+
+.card img{
+transition: all 0.3s;
+width: 100%;
+}
+
+.card img:hover{
+ transition: 0.3s;
+ transform: scale(1.2);
+}
+
+@media(max-width: 500px){
+    .galery1{
+       display: block;
+    }
+
+    .galery2{
+        display: block;
+    }
+
+    .card + .card{
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    .card{
+        border: none;
+        border-radius: 40px;
+    }
+}

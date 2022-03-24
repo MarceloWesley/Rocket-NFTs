@@ -1,0 +1,39 @@
+.footer-content3-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 60px;
+}
+
+.footer-content3-container div a{
+    text-decoration: none;
+    color: #5a5757;
+}
+
+.socials{
+    display: flex;
+
+}
+
+.socials div + div{
+    margin-left: 25px;
+}
+
+.socials-img{
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.socials-img:hover{
+transform: translateY(-5px);
+
+}
+
+@media(max-width: 570px){
+    .footer-content3-container{
+        flex-wrap: wrap;
+    }
+
+    .socials{
+        margin-top: 10px;
+    }
+}
